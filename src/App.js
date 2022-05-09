@@ -15,6 +15,7 @@ const importer = new FlatfileImporter(LICENSE_KEY, {
     { key: "State", label: "State" }
   ],
   managed: true,
+  webhookUrl: 'https://webhook.site/9d415116-003b-4af6-b648-2d4c4f58db82',
 });
 
 function App() {
